@@ -66,7 +66,7 @@ Ogólne wnioski potwierdzają, że metryka xG jest cennym narzędziem do oceny j
 
 1.  **Sklonuj repozytorium:**
    ```bash
-    git clone [https://github.com/SzymonSzulik47/Premier-League-xG-Analysis.git](https://github.comSzymonSzulik47/Premier-League-xG-Analysis.git)
+    git clone [https://github.com/SzymonSzulik47/Premier-League-xG-Analysis.git](https://github.com/SzymonSzulik47/Premier-League-xG-Analysis.git)
     cd Premier-League-xG-Analysis
    ```
 2.  **Zainstaluj wymagane biblioteki:**
