@@ -73,7 +73,7 @@ Ten wykres punktowy przedstawia zależność między sumą oczekiwanych goli (xG
 ### Underperformerzy – drużyny, które powinny strzelić więcej (xG > gole)
 Wykres słupkowy prezentujący drużyny, których rzeczywista liczba strzelonych goli była niższa niż ich Expected Goals (xG). Wskazuje to na niewykorzystany potencjał ofensywny lub pecha w wykończeniu akcji.
 
-![Underperformerzy](images/underperformers_bar.png)
+![Underperformerzy](images/underperfomers_bar.png)
 
 ### Overperformerzy – drużyny, które strzeliły ponad stan (xG < gole)
 Wykres słupkowy pokazujący drużyny, które strzeliły więcej goli niż wynikałoby z ich Expected Goals (xG). Może to świadczyć o wyjątkowej skuteczności, szczęściu, lub skuteczności w wykańczaniu trudniejszych sytuacji.
