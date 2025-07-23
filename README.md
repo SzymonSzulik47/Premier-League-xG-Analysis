@@ -61,6 +61,52 @@ Wykresy słupkowe jasno ilustrują, które drużyny "miały szczęście" (overpe
 Model regresji liniowej pokazuje, że **xG (zarówno zdobyte, jak i stracone) jest dobrym predyktorem liczby punktów**. Współczynnik R-kwadrat wskazuje na to, jaki procent zmienności punktowej jest wyjaśniony przez te metryki xG. Analiza reszt pozwoliła zidentyfikować drużyny, które znacząco odstają od tego trendu – czy to przez wyjątkową skuteczność, czy też przez pecha.
 
 Ogólne wnioski potwierdzają, że metryka xG jest cennym narzędziem do oceny jakości gry drużyny i może być dobrym wskaźnikiem przyszłych wyników.
+## Wizualizacje Kluczowych Wyników
+
+Poniżej przedstawiono wybrane wizualizacje z analizy, ilustrujące główne wnioski.
+
+### xG vs. Bramki zdobyte (2023/24)
+Ten wykres punktowy przedstawia zależność między sumą oczekiwanych goli (xG) a rzeczywistą liczbą strzelonych bramek dla każdej drużyny. Linia przerywana symbolizuje idealne dopasowanie (xG = gole). Punkty powyżej linii oznaczają "overperformerów", a poniżej linii "underperformerów".
+
+![xG vs. Bramki zdobyte](images/xgvsgoals.png)
+
+### Underperformerzy – drużyny, które powinny strzelić więcej (xG > gole)
+Wykres słupkowy prezentujący drużyny, których rzeczywista liczba strzelonych goli była niższa niż ich Expected Goals (xG). Wskazuje to na niewykorzystany potencjał ofensywny lub pecha w wykończeniu akcji.
+
+![Underperformerzy](images/underperformers_bar.png)
+
+### Overperformerzy – drużyny, które strzeliły ponad stan (xG < gole)
+Wykres słupkowy pokazujący drużyny, które strzeliły więcej goli niż wynikałoby z ich Expected Goals (xG). Może to świadczyć o wyjątkowej skuteczności, szczęściu, lub skuteczności w wykańczaniu trudniejszych sytuacji.
+
+![Overperformerzy](images/overperformers_bar.png)
+
+### Punkty vs. xG zdobyte (2023/24)
+Wykres punktowy przedstawiający relację między sumą zdobytych punktów a łączną wartością Expected Goals zdobytych dla każdej drużyny. Wskazuje na ogólny trend, że drużyny z wyższym xG_for zazwyczaj zdobywają więcej punktów.
+
+![Punkty vs. xG zdobyte](images/pointsvsXG.png)
+
+### Regresja Liniowa: Punkty vs. xG zdobyte
+Wykres ten wizualizuje linię regresji liniowej dopasowaną do danych Punktów vs. xG zdobytych, wraz z obszarem ufności. Pokazuje, jak dobrze xG zdobyte przewiduje liczbę punktów.
+
+![Regresja Liniowa: Punkty vs. xG zdobyte](images/rergres_pointsvsXg.png)
+
+### Punkty vs. xG stracone (2023/24)
+Wykres punktowy ilustrujący związek między sumą zdobytych punktów a łączną wartością Expected Goals straconych (xGA) przez każdą drużynę. Zazwyczaj drużyny, które tracą mniej xGA, zdobywają więcej punktów.
+
+![Punkty vs. xG stracone](images/pointsvsXGA.png)
+
+### Regresja Liniowa: Punkty vs. xG stracone
+Wykres przedstawiający linię regresji liniowej dla Punktów vs. xG straconych. Pomaga zrozumieć, jak bardzo dopuszczanie jakościowych okazji bramkowych wpływa na liczbę zdobytych punktów.
+
+![Regresja Liniowa: Punkty vs. xG stracone](images/regres_pointsvsXgA.png)
+
+### Reszty modelu regresji liniowej (Rzeczywiste Punkty - Przewidywane Punkty)
+Wykres słupkowy reszt z modelu regresji. Dodatnie reszty oznaczają, że drużyna zdobyła więcej punktów niż przewidywał model na podstawie xG, natomiast ujemne reszty wskazują na to, że drużyna zdobyła mniej punktów niż przewidywano.
+
+![Reszty modelu regresji](images/rests_realpoints_predictpoints.png)
+
+---
+
 
 ## Jak uruchomić projekt
 
